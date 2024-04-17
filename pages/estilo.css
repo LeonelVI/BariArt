@@ -3,7 +3,7 @@
 
 body{
     margin: auto;
-    background-color: blanchedalmond;
+    background-color: #171718;
     cursor: pointer;
     font-family:'Times New Roman', Times, serif;
     
@@ -41,7 +41,7 @@ body{
     position: relative;
     top: 50px;
     letter-spacing: 3px;
-    font-family: "Tangerine", cursive;
+    font-family: "Jersey 25", cursive;
 
       
     
@@ -50,14 +50,14 @@ body{
 #hero h3{
     font-size: 2em;
     letter-spacing: 3px;
-    font-family: "Tangerine", cursive;
+    font-family: "Jersey 25", cursive;
 }
 
 #hero p{
     font-size: 30px;
     position: relative;
     bottom: 40px;
-    font-family: "Tangerine", cursive;
+    font-family: "Jersey 25", cursive;
 }
 
 #hero .perfil{
@@ -177,6 +177,26 @@ body{
     ),url(../img/inspiracion.jpg);
 }
 
+.carta-button{
+    padding: 7px;
+    border-radius: 20px 0 20px 0;
+    background-color:rgb(202, 8, 18) ;
+    color: white;
+    border: solid 2px darkred;
+    font-size: 20px;
+    display: flex;
+    align-items: flex-end;
+    margin: auto;
+    top: 200px;
+
+}
+
+.carta-button:hover{
+    background-color: white;
+    color: brown;
+    transition: 0.8s;
+
+}
 
 
 
@@ -185,9 +205,9 @@ body{
 /*PORTFOLIO*/
     
 .portfolio{
-    padding-top: 100px;
-    margin-left: 50px;
+    max-width: 100%;
     display: flexbox;
+    margin:150px auto;
 }
 
 .portfolio h1{
@@ -355,3 +375,32 @@ h1{
     background-color: goldenrod;
 }
 
+
+/*Responsive*/ 
+
+@media(max-width:760px){
+    #hero{
+        margin: auto;
+        width: 100%;
+        display: flex;
+        height: 900px;
+
+    }
+
+    #id{
+        width: 100%;
+        margin: auto;
+    }
+   
+    .cartas{
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-size: cover ;
+    }
+
+    .carta p{
+        display: none;
+    }
+}
