@@ -1,0 +1,58 @@
+/*Contacto*/
+h1{
+    color:rgb(228, 191, 91) ;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.form-container{
+    display:flex;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 500px;
+    margin: auto;
+}
+
+.form-input{
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 13px;
+    border: 2px solid rgb(228, 191, 91);
+}
+
+.form-textarea{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 13px;
+    border: 2px solid rgb(228, 191, 91);
+    width: 100%;
+    max-height: 300px;
+    min-height: 200px;
+    min-width: 500px;
+    max-width: 500px;
+}
+
+.boton{
+    top: 20px;
+    right: 195px;
+    position:relative;
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border: 2px solid rgb(228, 191, 91);
+    background-color:darkgoldenrod;
+    border-radius: 15px ;
+    color: wheat;
+}
+
+.boton:hover{
+    background-color: white;
+    color:darkgoldenrod;
+}

@@ -1,0 +1,127 @@
+/*INICIO*/
+
+#mini{
+    color: white;
+    text-align: center;
+    text-align: justify;
+}
+
+#mini .container{
+    padding:100px 0px; 
+    
+}
+
+#mini h3{
+    font-size: 1.8em;
+    color: goldenrod;
+    text-decoration: overline;
+    text-align: center;
+}
+
+#mini p{
+    letter-spacing: 2px;
+    font-weight: bold;
+    line-height: 30px;
+    padding-bottom: px;
+}
+
+#mini .carta{
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 50px;
+    margin: auto;
+    border: 1px solid burlywood;
+    border-radius: 15px;
+    width: 500px;
+    height: 750px;
+    position: relative;
+}
+
+#mini .cartas{
+    display: flex;
+    width: 80%;
+    margin: 150px auto;
+    gap: 20px;
+    
+
+}
+
+.carta:first-child{
+    background-image:url(../img/carta1.jpg);
+}
+
+.carta:nth-child(2){
+    background-image:url(../img/scorpion-dogma\ \(1\).png);
+}
+
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+
+    ),url(../img/inspiracion.jpg);
+}
+
+.carta-button{
+    padding: 7px;
+    border-radius: 20px 0 20px 0;
+    background-color:rgb(202, 8, 18) ;
+    color: white;
+    border: solid 2px darkred;
+    font-size: 20px;
+    display: flex;
+    position: absolute;
+    bottom: 30px;
+    left: 220px;
+    display: none;
+
+    
+
+}
+
+.carta-button:hover{
+    background-color: white;
+    color: brown;
+    transition: 0.8s;
+
+}
+
+/*Responsive*/ 
+@media(max-width:1200px){
+
+    .cartas{
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-size: cover ;
+    }
+
+    .carta p{
+        display: none;
+    }
+
+    .carta-button{
+        display: block;
+    }
+ }
+
+@media(max-width:760px){
+    .cartas{
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-size: cover ;
+    }
+
+    .carta p{
+        display: none;
+    }
+
+    .carta-button{
+        display: block;
+    }
+
+}
