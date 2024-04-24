@@ -100,6 +100,8 @@ background-color: goldenrod;
 padding: 2px;
 }
 
+/*responsive*/
+
 @media(max-width:1200px){
     #hero{
         margin: auto;
@@ -112,13 +114,5 @@ padding: 2px;
     #id{
         width: 100%;
         margin: auto;
-    }
-   
-}
-
-@media(max-width:760px){
-    #hero{
-        width:100%;
-        height: 900px;
     }
  }

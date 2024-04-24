@@ -1,3 +1,4 @@
+
 /*INICIO*/
 
 #mini{
@@ -87,41 +88,45 @@
 
 }
 
-/*Responsive*/ 
 @media(max-width:1200px){
-
     .cartas{
         display: flex;
-        flex-direction: column;
         height: 200px;
         background-repeat: no-repeat;
         background-size: cover ;
     }
 
     .carta p{
-        display: none;
+        display: block;
     }
 
     .carta-button{
         display: block;
-    }
- }
-
-@media(max-width:760px){
-    .cartas{
-        display: flex;
-        flex-direction: column;
-        height: 200px;
-        background-repeat: no-repeat;
-        background-size: cover ;
-    }
-
-    .carta p{
-        display: none;
-    }
-
-    .carta-button{
-        display: block;
+        left: 270px;
     }
 
 }
+
+@media(max-width:720px){
+    .cartas{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-size: cover ;
+    }
+
+    .carta p{
+        display: none;
+    }
+
+    .carta-button{
+        display: block;
+        justify-content: center;
+     
+    }
+}
+
+
