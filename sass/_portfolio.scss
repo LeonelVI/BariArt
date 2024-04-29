@@ -1,32 +1,29 @@
-.portfolio{
+.portfolio {
     max-width: 100%;
     display: flexbox;
-    margin:150px auto;
-}
-
-.portfolio h1{
+    margin: 150px auto;
+  }
+  
+  .portfolio h1 {
     font-size: 2em;
     padding-bottom: 20px;
     color: rgb(228, 191, 91);
     margin: 0;
     text-decoration: overline;
     letter-spacing: 3px;
-}
-
-
-.portfolio img{
+  }
+  
+  .portfolio img {
     width: 450px;
     height: 600px;
-    display:inline-flexbox;
+    display: inline-flexbox;
     margin: auto;
     align-items: center;
-}
-
-
-
-footer{
+  }
+  
+  footer {
     margin-top: 200px;
-    color: rgb(228, 191, 91); 
+    color: rgb(228, 191, 91);
     text-align: center;
     padding: 0;
-}
+  }

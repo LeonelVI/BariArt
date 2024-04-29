@@ -1,14 +1,12 @@
-
-/*Quien Soy*/
-.yo-container{
+  /*Quien Soy*/
+  .yo-container {
     width: 80%;
     display: flex;
     margin: 100px auto 0px;
     position: relative;
-
-}
-
-.nombre{
+  }
+  
+.nombre {
     display: flex;
     justify-content: center;
     position: relative;
@@ -17,20 +15,17 @@
     letter-spacing: 3px;
     color: rgb(228, 191, 91);
     text-decoration: overline;
-}
-
-.yo-img{
+  }
+  
+.yo-img {
     display: flex;
     height: 500px;
     width: 500px;
     padding: 15px;
     border-radius: 15px;
-
-    
-}
-
-
-.yo-biografia{
+  }
+  
+.yo-biografia {
     line-height: 40px;
     display: flex;
     flex-direction: column;
@@ -38,34 +33,33 @@
     font-size: 25px;
     padding: 15px;
     text-align: justify;
-    color: rgb(228, 191, 91);
+    color:rgb(228, 191, 91);
     align-items: center;
     justify-content: left;
-    
-}
-
-.yo-container-dos{
+  }
+  
+.yo-container-dos {
     display: flex;
     margin: 300px auto;
     width: 80%;
     position: relative;
-}
-
-.yo-img-dos{
+  }
+  
+.yo-img-dos {
     display: flex;
     flex-direction: column;
     height: 500px;
     width: 500px;
-
-}
-
-.yo-biografia-dos{
+  }
+  
+.yo-biografia-dos {
     display: flex;
     flex-direction: column;
     letter-spacing: 2px;
     font-size: 25px;
     text-align: justify;
-    color: rgb(228, 191, 91);
+    color:rgb(228, 191, 91);
     align-items: center;
     justify-content: left;
-}
+  }
+  

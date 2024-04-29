@@ -1,6 +1,6 @@
 body {
-  margin: auto;
   background-color: #171718;
+  margin: 0;
 }
 
 * {
@@ -51,7 +51,7 @@ body {
   width: 120px;
   border-radius: 50%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   display: flex;
   margin: auto;
   position: relative;
@@ -127,7 +127,7 @@ body {
 
 #mini h3 {
   font-size: 1.8em;
-  color: goldenrod;
+  color: white;
   text-decoration: overline;
   text-align: center;
 }
@@ -136,7 +136,6 @@ body {
   letter-spacing: 2px;
   font-weight: bold;
   line-height: 30px;
-  padding-bottom: px;
 }
 
 #mini .carta {
@@ -144,7 +143,7 @@ body {
   background-size: cover;
   padding: 50px;
   margin: auto;
-  border: 1px solid burlywood;
+  border: 1px solid rgb(228, 191, 91);
   border-radius: 15px;
   width: 500px;
   height: 750px;
@@ -173,7 +172,7 @@ body {
 .carta-button {
   padding: 7px;
   border-radius: 20px 0 20px 0;
-  background-color: rgb(202, 8, 18);
+  background-color: red;
   color: white;
   border: solid 2px darkred;
   font-size: 20px;
@@ -190,41 +189,7 @@ body {
   transition: 0.8s;
 }
 
-@media (max-width: 1200px) {
-  .cartas {
-    display: flex;
-    flex-direction: column;
-    height: 200px;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .carta p {
-    display: none;
-  }
-  .carta-button {
-    display: block;
-    left: 270px;
-  }
-}
 @media (max-width: 720px) {
-  .cartas {
-    width: 100%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    height: 200px;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .carta p {
-    display: none;
-  }
-  .carta-button {
-    display: block;
-    justify-content: center;
-  }
-}
-@media (min-width: 320px) {
   .cartas {
     width: 100%;
     margin: auto;
@@ -394,4 +359,11 @@ h1 {
 .boton:hover {
   background-color: white;
   color: darkgoldenrod;
+}
+
+/*footer*/
+.footer {
+  margin-top: 200px;
+  padding: 50px;
+  border: solid 1px red;
 }/*# sourceMappingURL=style.css.map */
