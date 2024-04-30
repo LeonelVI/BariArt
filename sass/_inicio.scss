@@ -11,7 +11,7 @@
   
   #mini h3 {
     font-size: 1.8em;
-    color:white;
+    color:rgb(228, 191, 91);
     text-decoration: overline;
     text-align: center;
   }
@@ -72,6 +72,28 @@
     color: brown;
     transition: 0.8s;
   }
+
+  @media (max-width:1200px){
+    .cartas{
+      width: 100%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      height: 200px;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .carta p{
+      display: none;
+    }
+
+    .carta-button{
+      display: block;
+      display: flex;
+      left: 270px;
+    }
+  }
   
   @media (max-width: 720px) {
     .cartas {
@@ -82,12 +104,26 @@
       height: 200px;
       background-repeat: no-repeat;
       background-size: cover;
+     
     }
     .carta p {
       display: none;
     }
     .carta-button {
       display: block;
-      justify-content: center;
+      display: flex;
+      
+    }
+  }
+
+  @media (max-width:360px){
+    .carta{
+      width: 100%;
+      display: flex;
+      margin: auto;
+      height: 200px;
+      flex-direction: column;
+      background-repeat: no-repeat;
+      background-size: cover;
     }
   }

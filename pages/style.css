@@ -6,19 +6,20 @@ body {
 * {
   scroll-behavior: smooth;
   cursor: pointer;
+  box-sizing: border-box;
 }
 
 /*header*/
 #hero {
   width: 100%;
-  font-size: 1.5em;
+  font-size: 2em;
   transition: color 0.4s ease;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  height: 130vh;
+  height: 100vh;
   color: rgb(228, 191, 91);
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/JINX.png);
   background-repeat: no-repeat;
@@ -26,7 +27,7 @@ body {
 }
 
 #hero h1 {
-  font-size: 1.8em;
+  font-size: 2em;
   position: relative;
   top: 50px;
   letter-spacing: 3px;
@@ -104,14 +105,74 @@ body {
 /*responsive*/
 @media (max-width: 1200px) {
   #hero {
-    margin: auto;
     width: 100%;
+    font-size: 1.8em;
+    transition: color 0.4s ease;
     display: flex;
-    height: 900px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    flex-direction: column;
+    color: rgb(228, 191, 91);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/JINX.png);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   #id {
     width: 100%;
     margin: auto;
+  }
+  #hero h1 {
+    font-size: 2em;
+  }
+  #hero h3 {
+    font-size: 2em;
+  }
+  #hero p {
+    font-size: 2em;
+  }
+}
+@media (max-width: 720px) {
+  #hero {
+    width: 100%;
+    font-size: 1.8em;
+    transition: color 0.4s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: rgb(228, 191, 91);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/JINX.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #hero h1 {
+    font-size: 1.8em;
+  }
+  #hero h3 {
+    font-size: 1.8em;
+  }
+  #hero p {
+    font-size: 2em;
+  }
+}
+@media (min-width: 320px) {
+  #hero {
+    width: 100%;
+    font-size: 1.2em;
+    transition: color 0.4s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 130vh;
+    flex-direction: column;
+    color: rgb(228, 191, 91);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/JINX.png);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 /*INICIO*/
@@ -127,7 +188,7 @@ body {
 
 #mini h3 {
   font-size: 1.8em;
-  color: white;
+  color: rgb(228, 191, 91);
   text-decoration: overline;
   text-align: center;
 }
@@ -189,6 +250,25 @@ body {
   transition: 0.8s;
 }
 
+@media (max-width: 1200px) {
+  .cartas {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .carta p {
+    display: none;
+  }
+  .carta-button {
+    display: block;
+    display: flex;
+    left: 270px;
+  }
+}
 @media (max-width: 720px) {
   .cartas {
     width: 100%;
@@ -204,37 +284,91 @@ body {
   }
   .carta-button {
     display: block;
-    justify-content: center;
+    display: flex;
   }
 }
-.portfolio {
-  max-width: 100%;
-  display: flexbox;
-  margin: 150px auto;
+@media (max-width: 360px) {
+  .carta {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    height: 200px;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+.titulo2 {
+  color: rgb(226, 198, 91);
+  font-size: 1.6em;
+  letter-spacing: 3px;
+  text-decoration: overline;
 }
 
-.portfolio h1 {
-  font-size: 2em;
-  padding-bottom: 20px;
-  color: rgb(228, 191, 91);
-  margin: 0;
-  text-decoration: overline;
-  letter-spacing: 3px;
+.portfolio {
+  width: 100%;
+  margin: auto;
+  padding: 160px 20px 0 20px;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 600px);
+  grid-template-areas: "img1 img2  img3  img4" "img5 img6  img7  img8" "img9 img10 img11 img12";
+}
+
+.img1 {
+  grid-area: img1;
+}
+
+.img2 {
+  grid-area: img2;
+}
+
+.img3 {
+  grid-area: img3;
+}
+
+.img4 {
+  grid-area: img4;
+}
+
+.img5 {
+  grid-area: img5;
+}
+
+.img6 {
+  grid-area: img6;
+}
+
+.img7 {
+  grid-area: img7;
+}
+
+.img8 {
+  grid-area: img8;
+}
+
+.img9 {
+  grid-area: img9;
+}
+
+.img10 {
+  grid-area: img10;
+}
+
+.img11 {
+  grid-area: img11;
+}
+
+.img12 {
+  grid-area: img12;
 }
 
 .portfolio img {
-  width: 450px;
-  height: 600px;
-  display: inline-flexbox;
-  margin: auto;
-  align-items: center;
-}
-
-footer {
-  margin-top: 200px;
-  color: rgb(228, 191, 91);
-  text-align: center;
-  padding: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /*Quien Soy*/
@@ -363,7 +497,7 @@ h1 {
 
 /*footer*/
 .footer {
-  margin-top: 200px;
-  padding: 50px;
-  border: solid 1px red;
+  padding-top: 200px;
+  bottom: 10px;
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
