@@ -1,65 +1,64 @@
   /*Quien Soy*/
-  .yo-container {
-    width: 80%;
-    display: flex;
-    margin: 100px auto 0px;
-    position: relative;
-  }
-  
-.nombre {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    margin-top: 100px;
-    font-size: 2em;
-    letter-spacing: 3px;
-    color: rgb(228, 191, 91);
-    text-decoration: overline;
-  }
-  
-.yo-img {
-    display: flex;
-    height: 500px;
-    width: 500px;
-    padding: 15px;
-    border-radius: 15px;
-  }
-  
-.yo-biografia {
-    line-height: 40px;
-    display: flex;
-    flex-direction: column;
-    letter-spacing: 2px;
-    font-size: 25px;
-    padding: 15px;
-    text-align: justify;
-    color:rgb(228, 191, 91);
-    align-items: center;
-    justify-content: left;
-  }
-  
-.yo-container-dos {
-    display: flex;
-    margin: 300px auto;
-    width: 80%;
-    position: relative;
-  }
-  
-.yo-img-dos {
-    display: flex;
-    flex-direction: column;
-    height: 500px;
-    width: 500px;
-  }
-  
-.yo-biografia-dos {
-    display: flex;
-    flex-direction: column;
-    letter-spacing: 2px;
-    font-size: 25px;
-    text-align: justify;
-    color:rgb(228, 191, 91);
-    align-items: center;
-    justify-content: left;
-  }
-  
+
+.body2{
+ background-color: rgb(49, 61, 49);
+}
+.nombre{
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  color: rgb(228, 191, 91);
+  text-decoration: overline;
+}
+
+
+
+.yo-container{
+  padding-top: 150px;
+  width: 90%;
+  display: flex;
+  margin: auto;
+}
+
+.yo-container img{
+  width: 450px; 
+  height: 550px;
+  border: double 6px rgb(56, 39, 2);
+  border-radius: 60px 0 60px 0;
+
+
+}
+
+.yo-container-dos{
+  padding-top: 70px;
+  margin: auto;
+  width: 90%;
+  display: flex;
+}
+
+.yo-container-dos img{
+  width: 500px;
+  width: 600px;
+  border: double 6px rgb(56, 39, 2);
+  border-radius: 60px 0 60px 0;
+  object-fit: cover;
+}
+
+.parrafo1{
+  font-size: 2em;
+  color: rgb(228, 191, 91);
+  display: flex;
+  padding-left: 50px;
+  text-align: justify;
+  letter-spacing: 2px;
+}
+
+.parrafo2{
+  font-size: 2em;
+  color: rgb(228, 191, 91);
+  display: flex;
+  padding-right: 50px;
+  text-align: justify;
+  letter-spacing: 2px;
+}

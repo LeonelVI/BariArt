@@ -92,7 +92,7 @@
   }
   
   /*responsive*/
-  @media (max-width: 1200px) {
+  @media (min-width: 1200px){
     #hero{
       width: 100%;
       font-size: 1.8em;
@@ -108,27 +108,14 @@
       background-repeat: no-repeat;
       background-size: cover;
     }
-    #id {
-      width: 100%;
-      margin: auto;
-    }
 
-   #hero h1{
+   #hero .titulo{
     font-size: 2em;
-   }
-
-   #hero h3{
-    font-size: 2em;
-   }
-
-   #hero p{
-    font-size: 2em;
-   }
-
-
   }
+  }
+    
 
-  @media(max-width:720px){
+  @media only screen and (min-width:720px) and (max-width:1200px){
     #hero{
       width: 100%;
       font-size: 1.8em;
@@ -157,9 +144,11 @@
       font-size: 2em;
     }
   }
+    
+  
 
-  @media(min-width:320px){
-  #hero{
+  @media  only screen and (min-width:320px) and (max-width:720px){
+    #hero{
       width: 100%;
       font-size: 1.2em;
       transition: color 0.4s ease;
@@ -174,4 +163,5 @@
       background-repeat: no-repeat;
       background-size: cover;
     }
+
   }
