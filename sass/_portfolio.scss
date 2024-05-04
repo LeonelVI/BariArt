@@ -8,14 +8,17 @@
 .portfolio{
   width: 100%;
   margin: auto;
-  padding:160px 20px 0 20px;
-  gap: 10px;
+  padding:120px 20px 0 20px;
+  gap: 16px;
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(5,1fr);
   grid-template-rows: repeat(3,600px);
-  grid-template-areas:  "img1 img2  img3  img4"
-                        "img5 img6  img7  img8"
-                        "img9 img10 img11 img12";
+  grid-template-areas:  "img1 img2  img3  img4 img5"
+                        "img6 img7  img8  img10 img11"
+                        "img12 img13 img14 img15  img16"
+                       ;
+                      
+  row-gap: 30px;
 }
 
 .img1{
@@ -64,6 +67,22 @@
 
 .img12{
   grid-area: img12;
+}
+
+.img13{
+  grid-area: img13;
+}
+
+.img14{
+  grid-area: img14;
+}
+
+.img15{
+ grid-area: img15;
+}
+
+.img16{
+ grid-area: img16;
 }
 
 .portfolio img {
