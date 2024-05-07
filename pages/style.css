@@ -51,6 +51,7 @@ body {
   height: 120px;
   width: 120px;
   border-radius: 50%;
+  border: solid 3px #171718;
   -o-object-fit: cover;
   object-fit: cover;
   display: flex;
@@ -85,6 +86,7 @@ body {
   letter-spacing: 3px;
   position: relative;
   line-height: 40px;
+  font-weight: bold;
 }
 
 .link:hover {
@@ -168,18 +170,18 @@ body {
 .video-container {
   width: 90%;
   display: flex;
-  padding-top: 70px;
-  height: 140vh;
+  padding-top: 150px;
+  height: 110vh;
   margin: auto;
 }
 
 .video {
   width: 100%;
-  opacity: 1;
+  opacity: 0.7;
   -o-object-fit: initial;
      object-fit: initial;
-  border-radius: 50% 30%;
-  border: solid 4px goldenrod;
+  border-radius: 20px;
+  border: solid 4px #182020;
 }
 
 #mini {
@@ -318,74 +320,210 @@ body {
   padding: 120px 20px 0 20px;
   gap: 16px;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 600px);
-  grid-template-areas: "img1 img2  img3  img4 img5" "img6 img7  img8  img10 img11" "img12 img13 img14 img15  img16";
+  grid-template-areas: "img1 img2  img3  img4 " "img5 img6  img7  img8 " "img9 img10 img11 img12 " "img13 img14 img15 img16 " "img17 img18 img19 img20";
   row-gap: 30px;
 }
 
 .img1 {
   grid-area: img1;
+  opacity: 0.5;
+}
+
+.img1:hover {
+  opacity: 1;
+  transition: 0.8s;
 }
 
 .img2 {
   grid-area: img2;
+  opacity: 0.5;
+}
+
+.img2:hover {
+  opacity: 1;
+  transition: 0.8s;
 }
 
 .img3 {
   grid-area: img3;
+  opacity: 0.5;
+}
+
+.img3:hover {
+  opacity: 1;
+  transition: 0.8s;
 }
 
 .img4 {
   grid-area: img4;
+  opacity: 0.5;
+}
+
+.img4:hover {
+  opacity: 1;
+  transition: 0.8s;
 }
 
 .img5 {
   grid-area: img5;
+  opacity: 0.5;
+}
+
+.img5:hover {
+  opacity: 1;
+  transition: 0.8s;
 }
 
 .img6 {
   grid-area: img6;
+  opacity: 0.5;
+}
+
+.img6:hover {
+  opacity: 1;
+  transition: 0.8s;
 }
 
 .img7 {
   grid-area: img7;
+  opacity: 0.5;
+}
+
+.img7:hover {
+  opacity: 1;
+  transition: 0.8s;
 }
 
 .img8 {
   grid-area: img8;
+  opacity: 0.5;
+}
+
+.img8:hover {
+  opacity: 1;
+  transition: 0.8s;
 }
 
 .img9 {
   grid-area: img9;
+  opacity: 0.5;
+}
+
+.img9:hover {
+  opacity: 1;
+  transition: 1.2s;
 }
 
 .img10 {
   grid-area: img10;
+  opacity: 0.5;
+}
+
+.img10:hover {
+  opacity: 1;
+  transition: 0.8s;
 }
 
 .img11 {
   grid-area: img11;
+  opacity: 0.5;
+}
+
+.img11:hover {
+  opacity: 1;
+  transition: 0.8s;
 }
 
 .img12 {
   grid-area: img12;
+  opacity: 0.5;
+}
+
+.img12:hover {
+  opacity: 1;
+  transition: 0.8s;
 }
 
 .img13 {
   grid-area: img13;
+  opacity: 0.5;
+}
+
+.img13:hover {
+  opacity: 1;
+  transition: 0.8s;
 }
 
 .img14 {
   grid-area: img14;
+  opacity: 0.5;
+}
+
+.img14:hover {
+  opacity: 1;
+  transition: 0.8s;
 }
 
 .img15 {
   grid-area: img15;
+  opacity: 0.5;
+}
+
+.img15:hover {
+  opacity: 1;
+  transition: 0.8s;
 }
 
 .img16 {
   grid-area: img16;
+  opacity: 0.5;
+}
+
+.img16:hover {
+  opacity: 1;
+  transition: 0.8s;
+}
+
+.img17 {
+  grid-area: img17;
+  opacity: 0.5;
+}
+
+.img17:hover {
+  opacity: 1;
+  transition: 0.8s;
+}
+
+.img18 {
+  grid-area: img18;
+  opacity: 0.5;
+}
+
+.img18:hover {
+  opacity: 1;
+  transition: 0.8s;
+}
+
+.img19 {
+  grid-area: img19;
+  opacity: 0.5;
+}
+
+.img19:hover {
+  opacity: 1;
+  transition: 0.8s;
+}
+
+.img20 {
+  grid-area: img20;
+  opacity: 0.5;
+}
+
+.img20:hover {
+  opacity: 1;
+  transition: 0.8s;
 }
 
 .portfolio img {
@@ -397,7 +535,7 @@ body {
 
 /*Quien Soy*/
 .body2 {
-  background-color: rgb(49, 61, 49);
+  background-color: #171718;
 }
 
 .nombre {
@@ -441,20 +579,22 @@ body {
 
 .parrafo1 {
   font-size: 2em;
-  color: rgb(228, 191, 91);
+  color: white;
   display: flex;
   padding-left: 50px;
   text-align: justify;
   letter-spacing: 2px;
+  text-shadow: 0 0 10px wheat;
 }
 
 .parrafo2 {
   font-size: 2em;
-  color: rgb(228, 191, 91);
+  color: white;
   display: flex;
   padding-right: 50px;
   text-align: justify;
   letter-spacing: 2px;
+  text-shadow: 0 0 10px wheat;
 }
 
 /*Contacto*/

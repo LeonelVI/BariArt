@@ -40,6 +40,7 @@
     height: 120px;
     width: 120px;
     border-radius: 50%;
+    border: solid 3px #171718;
     -o-object-fit: cover;
     object-fit: cover;
     display: flex;
@@ -74,6 +75,7 @@
     letter-spacing: 3px;
     position: relative;
     line-height: 40px;
+    font-weight: bold;
   }
   
   .link:hover {

@@ -1,7 +1,7 @@
   /*Quien Soy*/
 
 .body2{
- background-color: rgb(49, 61, 49);
+ background-color: #171718;
 }
 .nombre{
   font-size: 3em;
@@ -47,18 +47,20 @@
 
 .parrafo1{
   font-size: 2em;
-  color:rgb(228, 191, 91);
+  color:white;
   display: flex;
   padding-left: 50px;
   text-align: justify;
   letter-spacing: 2px;
+  text-shadow: 0 0 10px wheat;
 }
 
 .parrafo2{
   font-size: 2em;
-  color: rgb(228, 191, 91);
+  color: white;
   display: flex;
   padding-right: 50px;
   text-align: justify;
   letter-spacing: 2px;
+  text-shadow: 0 0 10px wheat;
 }
