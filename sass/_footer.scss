@@ -1,42 +1,64 @@
  /*footer*/
  .footer {
-    padding-top: 500px;
-    bottom: 10px;
-    width: 100%;
-    height: 30vh;
     display: flex;
-    position: relative;
-    
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-around;
   }
 
-a{
-  text-decoration: none;
+.div-1{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: rgb(228, 191, 91);
+  font-size: 18px;
 }
 
-.icono-footer{
-  text-decoration: none;
+.redes-footer a{
   color: white;
-  display: flex;
-  padding: 20px;
-  font-size: 35px;
+  font-size: 30px;
+  gap: 10px;
+  padding: 10px;
 }
-.icono-footer:hover{
+
+.redes-footer a:hover{
   color: bisque;
+  transition: 0,5s;
 }
 
-.p-footer{
-  font-size: 20px;
-  color: white;
+.div-2{
   display: flex;
-  position: absolute;
-  bottom: 0;
-  left: 0;
+  flex-wrap:wrap ;
+  gap:10px;
+  margin: 10px;
 }
 
-.h1-footer{
-  font-size: 20px;
+.enlaces{
   display: flex;
-  margin: auto;
+  flex-direction: column;
+  gap: 10px;
 }
+
+.lista{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 15px;
+  padding: 20px;
+}
+
+.lista a{
+  text-decoration: none;
+  color: rgb(228, 191, 91);
+  font-size: 20px;
+}
+
+.lista a:hover{
+  color: wheat;
+}
+
+
+
+
 
   

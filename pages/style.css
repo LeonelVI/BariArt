@@ -5,8 +5,8 @@ body {
 
 * {
   scroll-behavior: smooth;
-  cursor: pointer;
   box-sizing: border-box;
+  cursor: default;
 }
 
 /*header*/
@@ -190,7 +190,7 @@ body {
   width: 60%;
   display: flex;
   padding-top: 150px;
-  height: 110vh;
+  height: 120vh;
   margin: auto;
 }
 
@@ -203,137 +203,6 @@ body {
   box-shadow: 30px 15px rgb(48, 48, 47);
 }
 
-/*
-#mini {
-  color: white;
-  text-align: center;
-  text-align: justify;
-}
-
-#mini .container {
-  padding: 100px 0px;
-}
-
-#mini h3 {
-  font-size: 1.8em;
-  color:rgb(228, 191, 91);
-  text-decoration: overline;
-  text-align: center;
-}
-
-#mini p {
-  letter-spacing: 2px;
-  font-weight: bold;
-  line-height: 30px;
-}
-
-#mini .carta {
-  background-repeat:repeat;
-  background-size:cover;
-  padding: 50px;
-  margin: auto;
-  border: 1px solid rgb(228, 191, 91);
-  border-radius: 15px;
-  width: 500px;
-  height: 750px;
-  position: relative;
-}
-
-#mini .cartas {
-  display: flex;
-  width: 80%;
-  margin: 100px auto;
-  gap: 40px;
-}
-
-.carta:first-child {
-  background-image: url(../img/boceto.webp);
-  opacity: 1;
-}
-
-.carta:nth-child(2) {
-  background-image: url(../img/Asteca.jpg);
-}
-
-.carta:nth-child(3) {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/inspiracion.jpg);
-}
-
-.carta-button {
-  padding: 7px;
-  border-radius: 20px 0 20px 0;
-  background-color: red;
-  color:white;
-  border: solid 2px darkred;
-  font-size: 20px;
-  display: flex;
-  position: absolute;
-  bottom: 30px;
-  left: 220px;
-  display: none;
-}
-
-.carta-button:hover {
-  background-color: white;
-  color: brown;
-  transition: 0.8s;
-}
-
-@media (max-width:1200px){
-  .cartas{
-    width: 100%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    height: 200px;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .carta p{
-    display: none;
-  }
-
-  .carta-button{
-    display: block;
-    display: flex;
-    left: 270px;
-  }
-}
-
-@media (max-width: 720px) {
-  .cartas {
-    width: 100%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    height: 200px;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-  }
-  .carta p {
-    display: none;
-  }
-  .carta-button {
-    display: block;
-    display: flex;
-
-  }
-}
-
-@media (max-width:360px){
-  .carta{
-    width: 100%;
-    display: flex;
-    margin: auto;
-    height: 200px;
-    flex-direction: column;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-}
-*/
 .inicio-section {
   width: 100%;
   display: flex;
@@ -351,7 +220,8 @@ body {
   height: 600px;
   display: flex;
   position: relative;
-  top: 90px;
+  top: 60px;
+  border: solid 3px grey;
 }
 
 .inicio-img2 {
@@ -359,7 +229,8 @@ body {
   height: 650px;
   display: flex;
   position: relative;
-  top: 80px;
+  top: 45px;
+  border: solid 3px gray;
 }
 
 .inicio-img3 {
@@ -367,12 +238,14 @@ body {
   height: 600px;
   display: flex;
   position: relative;
-  top: 100px;
+  top: 45px;
+  border: solid 3px grey;
 }
 
 .inicio-p {
   display: flex;
   letter-spacing: 2px;
+  line-height: 35px;
   font-size: 25px;
   text-align: justify;
   padding: 0 30px;
@@ -393,12 +266,12 @@ body {
 .portfolio {
   width: 100%;
   margin: auto;
-  padding: 120px 20px 0 20px;
+  padding: 120px 20px 200px 20px;
   gap: 16px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 600px);
-  grid-template-areas: "img1 img17 img15  img4 " "img5 img16  img20  img18 " "img8 img10 img6 img7" "img13 img14 img12 img2 " "img11 img19 img9 img3";
+  grid-template-rows: repeat(5, 600px);
+  grid-template-areas: "img1 img17 img15 img4" "img5 img16 img20 img18" "img8 img7 img6 img10" "img13 img14 img12 img2" "img11 img19 img9 img3";
   row-gap: 30px;
 }
 
@@ -639,6 +512,7 @@ body {
 
 .yo-container-dos {
   padding-top: 70px;
+  padding-bottom: 200px;
   margin: auto;
   width: 90%;
   display: flex;
@@ -684,6 +558,7 @@ h1 {
   margin-top: 100px;
   width: 500px;
   margin: auto;
+  padding-bottom: 200px;
 }
 
 .form-input {
@@ -732,41 +607,59 @@ h1 {
 
 /*footer*/
 .footer {
-  padding-top: 500px;
-  bottom: 10px;
-  width: 100%;
-  height: 30vh;
   display: flex;
-  position: relative;
-}
-
-a {
-  text-decoration: none;
-}
-
-.icono-footer {
-  text-decoration: none;
-  color: white;
-  display: flex;
+  flex-wrap: wrap;
   padding: 20px;
-  font-size: 35px;
+  justify-content: space-around;
 }
 
-.icono-footer:hover {
-  color: bisque;
+.div-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: rgb(228, 191, 91);
+  font-size: 18px;
 }
 
-.p-footer {
-  font-size: 20px;
+.redes-footer a {
   color: white;
-  display: flex;
-  position: absolute;
-  bottom: 0;
-  left: 0;
+  font-size: 30px;
+  gap: 10px;
+  padding: 10px;
 }
 
-.h1-footer {
-  font-size: 20px;
+.redes-footer a:hover {
+  color: bisque;
+  transition: 0, 5s;
+}
+
+.div-2 {
   display: flex;
-  margin: auto;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px;
+}
+
+.enlaces {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.lista {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 15px;
+  padding: 20px;
+}
+
+.lista a {
+  text-decoration: none;
+  color: rgb(228, 191, 91);
+  font-size: 20px;
+}
+
+.lista a:hover {
+  color: wheat;
 }/*# sourceMappingURL=style.css.map */

@@ -2,7 +2,7 @@
   width: 60%;
   display: flex;
   padding-top: 150px;
-  height: 110vh;
+  height: 120vh;
   margin: auto;
 }
 
@@ -13,140 +13,6 @@
   border-radius: 20px;
   box-shadow: 30px 15px rgb(48, 48, 47);
 }
-
-
-
-/*
-#mini {
-  color: white;
-  text-align: center;
-  text-align: justify;
-}
-
-#mini .container {
-  padding: 100px 0px;
-}
-
-#mini h3 {
-  font-size: 1.8em;
-  color:rgb(228, 191, 91);
-  text-decoration: overline;
-  text-align: center;
-}
-
-#mini p {
-  letter-spacing: 2px;
-  font-weight: bold;
-  line-height: 30px;
-}
-
-#mini .carta {
-  background-repeat:repeat;
-  background-size:cover;
-  padding: 50px;
-  margin: auto;
-  border: 1px solid rgb(228, 191, 91);
-  border-radius: 15px;
-  width: 500px;
-  height: 750px;
-  position: relative;
-}
-
-#mini .cartas {
-  display: flex;
-  width: 80%;
-  margin: 100px auto;
-  gap: 40px;
-}
-
-.carta:first-child {
-  background-image: url(../img/boceto.webp);
-  opacity: 1;
-}
-
-.carta:nth-child(2) {
-  background-image: url(../img/Asteca.jpg);
-}
-
-.carta:nth-child(3) {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/inspiracion.jpg);
-}
-
-.carta-button {
-  padding: 7px;
-  border-radius: 20px 0 20px 0;
-  background-color: red;
-  color:white;
-  border: solid 2px darkred;
-  font-size: 20px;
-  display: flex;
-  position: absolute;
-  bottom: 30px;
-  left: 220px;
-  display: none;
-}
-
-.carta-button:hover {
-  background-color: white;
-  color: brown;
-  transition: 0.8s;
-}
-
-@media (max-width:1200px){
-  .cartas{
-    width: 100%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    height: 200px;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .carta p{
-    display: none;
-  }
-
-  .carta-button{
-    display: block;
-    display: flex;
-    left: 270px;
-  }
-}
-
-@media (max-width: 720px) {
-  .cartas {
-    width: 100%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    height: 200px;
-    background-repeat: no-repeat;
-    background-size: cover;
-   
-  }
-  .carta p {
-    display: none;
-  }
-  .carta-button {
-    display: block;
-    display: flex;
-    
-  }
-}
-
-@media (max-width:360px){
-  .carta{
-    width: 100%;
-    display: flex;
-    margin: auto;
-    height: 200px;
-    flex-direction: column;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-}
-*/
 
 .inicio-section{
   width: 100%;
@@ -165,7 +31,8 @@
   height: 600px;
   display: flex;
   position: relative;
-  top: 90px;
+  top: 60px;
+  border: solid 3px grey;
 }
 
 .inicio-img2{
@@ -173,7 +40,8 @@
   height: 650px;
   display: flex;
   position: relative;
-  top: 80px;
+  top: 45px;
+  border: solid 3px gray;
 }
 
 .inicio-img3{
@@ -181,13 +49,15 @@
   height: 600px;
   display: flex;
   position: relative;
-  top: 100px;
+  top: 45px;
+  border: solid 3px grey;
   
 }
 
 .inicio-p{
   display: flex;
   letter-spacing: 2px;
+  line-height: 35px;
   font-size: 25px;
   text-align: justify;
   padding: 0 30px;
