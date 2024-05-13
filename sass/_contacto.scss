@@ -1,6 +1,6 @@
   /*Contacto*/
   .h1-contacto {
-    color: rgb(228, 191, 91);
+    color: peachpuff;
     text-align: center;
     margin-top: 100px;
     letter-spacing: 2px;
@@ -18,12 +18,22 @@
   
   .form-input {
     width: 100%;
-    margin: 20px auto;
-    display: flex;
+    margin:20px auto 0;
     gap: 20px;
+    display: flex;
     align-items: center;
     padding: 13px;
-    border: 2px solid rgb(228, 191, 91);
+    border: 2px solid peachpuff;
+  }
+
+  .form-input-2{
+    width: 100%;
+    margin:20px auto;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    padding: 13px;
+    border: 2px solid peachpuff;
   }
   
   .form-textarea {
@@ -32,7 +42,7 @@
     flex-direction: column;
     margin: auto;
     padding: 13px;
-    border: 2px solid rgb(228, 191, 91);
+    border: 2px solid peachpuff;
     width: 100%;
     max-height: 300px;
     min-height: 200px;
@@ -41,15 +51,11 @@
   }
   
   .boton {
-    top: 20px;
-    right: 195px;
-    position: relative;
     padding: 10px;
-    margin-top: 20px;
     display: flex;
     flex-direction: column;
-    margin: auto;
-    border: 2px solid rgb(228, 191, 91);
+    margin: 20px auto;
+    border: 2px solid peachpuff;
     background-color: darkgoldenrod;
     border-radius: 15px;
     color: wheat;
@@ -60,3 +66,36 @@
     color: darkgoldenrod;
   }
   
+  @media(max-width:580px){
+    .form-container {
+      display: flex;
+      flex-direction: column;
+      width: 400px;
+      margin: auto;
+      padding-bottom: 200px;
+    }
+
+    .form-textarea {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin: auto;
+      padding: 13px;
+      border: 2px solid peachpuff;
+      width: 100%;
+      max-height: 300px;
+      min-height: 200px;
+      min-width: 400px;
+      max-width: 400px;
+    }
+
+    .boton{
+      display: flex;
+      margin: 20px auto;
+      justify-content: center;
+    }
+    
+
+
+  
+  }
