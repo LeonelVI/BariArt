@@ -1,8 +1,5 @@
   /*Quien Soy*/
 
-.body2{
- background-color: #171718;
-}
 .nombre{
   font-size: 3em;
   display: flex;
@@ -24,7 +21,7 @@
 .yo-container img{
   width: 450px; 
   height: 550px;
-  border: double 6px rgb(221, 161, 31);
+  box-shadow: 20px 10px 5px rgb(116, 111, 75);
   border-radius: 60px 0 60px 0;
 
 
@@ -41,7 +38,7 @@
 .yo-container-dos img{
   width: 500px;
   width: 600px;
-  border: double 6px rgb(221, 161, 31);
+  box-shadow: 18px 10px 7px rgb(116, 111, 75);
   border-radius: 60px 0 60px 0;
   object-fit: cover;
 }

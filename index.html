@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./pages/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="perfil1.jpeg" type="image/x-icon">
@@ -17,14 +18,17 @@
 <body>
     <header id="hero">
 
-        <div class="">
-            <img class="perfil" src="./img/perfil4.jpeg" alt="">
+        <div class="perfil">
+            <img src="./img/perfil4.jpeg" alt="">
         </div>
 
-         <section class="Titulo">
-            <h1>BariArt</h1>
-            <h3>Gabriel Oscar Barisonzi</h3>
-            <p>Concept Artist & Illustrator</p>
+         <section class="titulo">
+            <div class="div-titulo">
+                <h1>BariArt</h1>
+                <h3>Gabriel Oscar Barisonzi</h3>
+                <p>Concept Artist & Illustrator</p>
+            </div>
+            
         </section>
        
         <section class="redes">
@@ -142,5 +146,9 @@ Todas estas influencias se entrelazan de manera única en cada uno de mis dibujo
             </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
