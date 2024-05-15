@@ -9,144 +9,95 @@
   text-shadow: 7px 0 2px black;
 }
 
-
-.yo-container{
-  padding-top: 150px;
+/*PRIMERA BIOGRAFIA*/
+.yo{
+  margin: 100px auto;
   width: 90%;
-  display: flex;
-  margin: auto;
 }
 
-.yo-container img{
-  width: 450px; 
-  height: 550px;
-  border: solid 3px gray;
-  border-radius: 60px 0 60px 0;
+.yo img{
+  width: 400px;
+  height: 500px;
+  float: left;
+  border: solid 3px grey;
+  margin-right: 30px;
+  border-radius: 10px;
 }
 
-.yo-container-dos{
-  padding-top: 70px;
-  padding-bottom: 200px;
-  margin: auto;
-  width: 90%;
-  display: flex;
-}
-
-.yo-container-dos img{
-  width: 500px;
-  width: 600px;
-  border: solid 3px gray;
-  border-radius: 60px 0 60px 0;
-  object-fit: cover;
-}
-
-.parrafo1{
-  font-size: 2em;
-  color:white;
-  display: flex;
-  padding-left: 50px;
-  text-align: justify;
-  letter-spacing: 2px;
-  
-}
-
-.parrafo2{
-  font-size: 2em;
-  color: white;
-  display: flex;
-  padding-right: 50px;
-  text-align: justify;
-  letter-spacing: 2px;
-  
-}
-
-@media(max-width:1200px){
-  .nombre{
-    font-size: 2.5em;
-    display: flex;
-    justify-content: center;
-    padding-top: 100px;
-    color: peachpuff;
-    text-shadow: 7px 0 2px black;
-  }
-
-  .yo-container img{
-    width: 400px; 
-    height: 500px;
-    border: solid 3px gray;
-    border-radius: 60px 0 60px 0;
-  }
-  
-  .yo-container-dos img{
-    width: 450px;
-    width: 550px;
-    border: solid 3px gray;
-    border-radius: 60px 0 60px 0;
-    object-fit: cover;
-  }
-
-  .parrafo1{
-    font-size: 1.5em;
-    color:white;
-    display: flex;
-    padding-left: 50px;
-    text-align: justify;
-    letter-spacing: 2px;
-    
-  }
-  
-  .parrafo2{
-    font-size: 1.5em;
+.yo-biografia{
     color: white;
-    display: flex;
-    padding-right: 50px;
-    text-align: justify;
-    letter-spacing: 2px;
-    
-  }
 }
 
-@media (max-width:1024px){
-  .yo-container{
-    padding-top: 70px;
-    width: 100%;
+.yo-biografia p{
+  font-size: 1.6em;
+  letter-spacing: 2px;
+  padding: 20px;
+  text-align: justify;
+}
+
+/*SEGUNDA BIOGRAFIA*/
+.yo-dos{
+  margin: 300px auto;
+  width: 90%;
+}
+
+.yo-dos img{
+  width: 400px;
+  height: 600px;
+  float: right;
+  border: solid 3px grey;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+
+.yo-biografia-dos{
+  color: white;
+}
+
+.yo-biografia-dos p{
+  font-size: 1.6em;
+  letter-spacing: 2px;
+  padding: 20px;
+  text-align: justify;
+}
+@media(max-width:780px){
+  .yo{
+    margin: 100px auto;
     display: flex;
     flex-direction: column;
-      img{
-        display: flex;
-        margin: 0 auto 30px;
-      }
-      
-      p{
-        font-size: 1.5em;
-        color: white;
-        display: flex;
-        margin: auto;
-        text-align:justify ;
-        letter-spacing: 2px;
-      }
+  }
+  .yo img{
+    margin: auto; 
   }
 
-  
-  .yo-container-dos{
-  padding-top: 5%;
-  padding-bottom: 200px;
-  margin: auto;
-  width: 90%;
-  display: flex;
-  flex-direction: column;
-    img{
-      display: flex;
-      margin: 30px auto;
-    }
-  }
-  .parrafo2{
-    font-size: 1.5em;
-    color: white;
+/*SEGUNDA IMAGEN*/
+  .yo-dos{
+    margin: 200px auto;
     display: flex;
+    flex-direction: column;
+  }
+  .yo-dos img{
     margin: auto;
-    text-align: justify;
-    letter-spacing: 2px;
-    
   }
 }
+
+@media(max-width:580px){
+  .nombre{
+    font-size: 2.5em;
+  }
+}
+
+@media(max-width:480px){
+
+  .nombre{
+    font-size: 2.2em;
+  }
+  .yo-biografia p{
+    font-size: 1.3em;
+  }
+
+  .yo-biografia-dos p{
+    font-size: 1.3em;
+  }
+}
+  
