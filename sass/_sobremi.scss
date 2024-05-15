@@ -100,4 +100,23 @@
     font-size: 1.3em;
   }
 }
+
+@media(max-width:480px){
+  .nombre{
+    font-size: 2em;
+  }
+
+  .yo img{
+    width: 300px;
+    height: 350px;
+  }
+  .yo-biografia p{
+    font-size: 1.1em;
+    width: 100%;
+  }
+
+  .yo-biografia-dos p{
+    font-size: 1.1em;
+  }
+}
   

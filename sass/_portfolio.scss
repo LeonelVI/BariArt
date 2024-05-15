@@ -364,7 +364,7 @@
     .portfolio{
       width: 100%;
       margin: auto;
-      padding:120px 50px 200px 50px;
+      padding:120px 20px 200px 20px;
       column-gap: 70px;
       display: grid;
       grid-template-columns: repeat(1,1fr);
@@ -393,4 +393,558 @@
                           
       row-gap: 80px;
     }
+
+    .img1{
+      grid-area: img1;
+      opacity: 0.5;
+      transition: 1s;
+      &:hover{
+        opacity: 1;
+        transition: 0.8s;
+        transform: scale(1.1);
+      }
     }
+    
+    
+    
+    .img2{
+      grid-area: img2;
+      opacity: 0.5;
+      transition: 1s;
+      &:hover{
+        opacity: 1;
+        transition: 0.8s;
+        transform: scale(1.1);
+      }
+    }
+    
+    
+    
+    .img3{
+      grid-area: img3;
+      opacity: 0.5;
+      transition: 1s;
+      &:hover{
+        opacity: 1;
+        transition: 0.8s;
+        transform: scale(1.1);
+      }
+    }
+    
+    
+    .img4{
+      grid-area: img4;
+      opacity: 0.5;
+      transition: 1s;
+      &:hover{
+        opacity: 1;
+        transition: 0.8s;
+        transform: scale(1.1);
+      }
+    }
+    
+    
+    
+    
+    .img5{
+      grid-area: img5;
+      opacity: 0.5;
+      transition: 1s;
+      &:hover{
+        opacity: 1;
+        transition: 0.8s;
+        transform: scale(1.1);
+      }
+    }
+    
+    
+    
+    
+    .img6{
+      grid-area: img6;
+      opacity: 0.5;
+      transition: 1s;
+      &:hover{
+        opacity: 1;
+        transition: 0.8s;
+        transform: scale(1.1);
+      }
+    }
+    
+    
+    .img7{
+      grid-area: img7;
+      opacity: 0.5;
+      transition: 1s;
+      &:hover{
+        opacity: 1;
+        transition: 0.8s;
+        transform: scale(1.1);
+      }
+    }
+    
+    
+    
+    
+    .img8{
+      grid-area: img8;
+      opacity: 0.5;
+      transition: 1s;
+      &:hover{
+        opacity: 1;
+        transition: 0.8s;
+        transform: scale(1.1);
+      }
+    }
+    
+    
+    
+    .img9{
+      grid-area: img9;
+      opacity: 0.5;
+      transition: 1s;
+      &:hover{
+        opacity: 1;
+        transition: 0.8s;
+        transform: scale(1.1);
+      }
+    }
+    
+    
+    
+    .img10{
+      grid-area: img10;
+      opacity: 0.5;
+      transition: 1s;
+      &:hover{
+        opacity: 1;
+        transition: 0.8s;
+        transform: scale(1.1);
+      }
+    }
+    
+    
+    
+    .img11{
+      grid-area: img11;
+      opacity: 0.5;
+      transition: 1s;
+      &:hover{
+        opacity: 1;
+        transition: 0.8s;
+        transform: scale(1.1);
+      }
+    }
+    
+    
+    
+    
+    .img12{
+      grid-area: img12;
+      opacity: 0.5;
+      transition: 1s;
+      &:hover{
+        opacity: 1;
+        transition: 0.8s;
+        transform: scale(1.1);
+      }
+    }
+    
+    
+    
+    .img13{
+      grid-area: img13;
+      opacity: 0.5;
+      transition: 1s;
+      &:hover{
+        opacity: 1;
+        transition: 0.8s;
+        transform: scale(1.1);
+      }
+    }
+    
+    
+    
+    .img14{
+      grid-area: img14;
+      opacity: 0.5;
+      transition: 1s;
+      &:hover{
+        opacity: 1;
+        transition: 0.8s;
+        transform: scale(1.1);
+      }
+    }
+    
+    
+    
+    .img15{
+     grid-area: img15;
+     opacity: 0.5;
+     transition: 1s;
+     &:hover{
+      opacity: 1;
+      transition: 0.8s;
+      transform: scale(1.1);
+    }
+    }
+    
+    
+    
+    .img16{
+     grid-area: img16;
+     opacity: 0.5;
+     transition: 1s;
+     &:hover{
+      opacity: 1;
+      transition: 0.8s;
+      transform: scale(1.1);
+    }
+    }
+    
+.img17{
+  grid-area: img17;
+  opacity: 0.5;
+  transition: 1s;
+  &:hover{
+    opacity: 1;
+    transition: 0.8s;
+    transform: scale(1.1);
+  }
+ }
+
+
+
+
+ .img18{
+  grid-area: img18;
+  opacity: 0.5;
+  transition: 1s;
+  &:hover{
+    opacity: 1;
+    transition: 0.8s;
+    transform: scale(1.1);
+  }
+ }
+
+
+
+
+ .img19{
+  grid-area: img19;
+  opacity: 0.5;
+  transition: 1s;
+  &:hover{
+    opacity: 1;
+    transition: 0.8s;
+    transform: scale(1.1);
+  }
+ }
+
+
+
+ .img20{
+  grid-area: img20;
+  opacity: 0.5;
+  transition: 1s;
+  &:hover{
+    opacity: 1;
+    transition: 0.8s;
+    transform: scale(1.1);
+  }
+ }
+    
+    }
+
+  @media (max-width:480px){
+    .portfolio{
+      width: 100%;
+      margin: auto;
+      padding:120px 10px 200px 10px;
+      column-gap: 70px;
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      grid-template-rows: repeat(20,700px);
+      grid-template-areas: "img1" 
+                            "img17"
+                            "img15"
+                             "img4"
+                            "img5" 
+                            "img16"
+                            "img20"
+                             "img18"
+                            "img8" 
+                           "img7"
+                            "img6" 
+                           " img10"
+                            "img13"
+                            " img14" 
+                            "img12" 
+                            "img2"
+                            "img11"
+                            "img19"
+                             "img9" 
+                             "img3"
+                           ;
+                          
+      row-gap: 80px;
+  }
+
+  .img1{
+    grid-area: img1;
+    opacity: 0.5;
+    transition: 1s;
+    &:hover{
+      opacity: 1;
+      transition: 0.8s;
+      transform: scale(1.05);
+    }
+  }
+  .img2{
+    grid-area: img2;
+    opacity: 0.5;
+    transition: 1s;
+    &:hover{
+      opacity: 1;
+      transition: 0.8s;
+      transform: scale(1.05);
+    }
+  }
+  
+  
+  
+  .img3{
+    grid-area: img3;
+    opacity: 0.5;
+    transition: 1s;
+    &:hover{
+      opacity: 1;
+      transition: 0.8s;
+      transform: scale(1.05);
+    }
+  }
+  
+  
+  .img4{
+    grid-area: img4;
+    opacity: 0.5;
+    transition: 1s;
+    &:hover{
+      opacity: 1;
+      transition: 0.8s;
+      transform: scale(1.05);
+    }
+  }
+  
+  
+  
+  
+  .img5{
+    grid-area: img5;
+    opacity: 0.5;
+    transition: 1s;
+    &:hover{
+      opacity: 1;
+      transition: 0.8s;
+      transform: scale(1.05);
+    }
+  }
+  
+  
+  
+  
+  .img6{
+    grid-area: img6;
+    opacity: 0.5;
+    transition: 1s;
+    &:hover{
+      opacity: 1;
+      transition: 0.8s;
+      transform: scale(1.05);
+    }
+  }
+  
+  
+  .img7{
+    grid-area: img7;
+    opacity: 0.5;
+    transition: 1s;
+    &:hover{
+      opacity: 1;
+      transition: 0.8s;
+      transform: scale(1.05);
+    }
+  }
+  
+  
+  
+  
+  .img8{
+    grid-area: img8;
+    opacity: 0.5;
+    transition: 1s;
+    &:hover{
+      opacity: 1;
+      transition: 0.8s;
+      transform: scale(1.05);
+    }
+  }
+  
+  
+  
+  .img9{
+    grid-area: img9;
+    opacity: 0.5;
+    transition: 1s;
+    &:hover{
+      opacity: 1;
+      transition: 0.8s;
+      transform: scale(1.05);
+    }
+  }
+  
+  
+  
+  .img10{
+    grid-area: img10;
+    opacity: 0.5;
+    transition: 1s;
+    &:hover{
+      opacity: 1;
+      transition: 0.8s;
+      transform: scale(1.05);
+    }
+  }
+  
+  
+  
+  .img11{
+    grid-area: img11;
+    opacity: 0.5;
+    transition: 1s;
+    &:hover{
+      opacity: 1;
+      transition: 0.8s;
+      transform: scale(1.05);
+    }
+  }
+  
+  
+  
+  
+  .img12{
+    grid-area: img12;
+    opacity: 0.5;
+    transition: 1s;
+    &:hover{
+      opacity: 1;
+      transition: 0.8s;
+      transform: scale(1.05);
+    }
+  }
+  
+  
+  
+  .img13{
+    grid-area: img13;
+    opacity: 0.5;
+    transition: 1s;
+    &:hover{
+      opacity: 1;
+      transition: 0.8s;
+      transform: scale(1.05);
+    }
+  }
+  
+  
+  
+  .img14{
+    grid-area: img14;
+    opacity: 0.5;
+    transition: 1s;
+    &:hover{
+      opacity: 1;
+      transition: 0.8s;
+      transform: scale(1.05);
+    }
+  }
+  
+  
+  
+  .img15{
+   grid-area: img15;
+   opacity: 0.5;
+   transition: 1s;
+   &:hover{
+    opacity: 1;
+    transition: 0.8s;
+    transform: scale(1.05);
+  }
+  }
+  
+  
+  
+  .img16{
+   grid-area: img16;
+   opacity: 0.5;
+   transition: 1s;
+   &:hover{
+    opacity: 1;
+    transition: 0.8s;
+    transform: scale(1.05);
+  }
+  }
+  
+  
+  .img17{
+    grid-area: img17;
+    opacity: 0.5;
+    transition: 1s;
+    &:hover{
+      opacity: 1;
+      transition: 0.8s;
+      transform: scale(1.05);
+    }
+   }
+  
+  
+  
+  
+   .img18{
+    grid-area: img18;
+    opacity: 0.5;
+    transition: 1s;
+    &:hover{
+      opacity: 1;
+      transition: 0.8s;
+      transform: scale(1.05);
+    }
+   }
+  
+  
+  
+  
+   .img19{
+    grid-area: img19;
+    opacity: 0.5;
+    transition: 1s;
+    &:hover{
+      opacity: 1;
+      transition: 0.8s;
+      transform: scale(1.05);
+    }
+   }
+  
+  
+  
+   .img20{
+    grid-area: img20;
+    opacity: 0.5;
+    transition: 1s;
+    &:hover{
+      opacity: 1;
+      transition: 0.8s;
+      transform: scale(1.05);
+    }
+   }
+ }
